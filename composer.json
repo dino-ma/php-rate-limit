@@ -1,0 +1,20 @@
+{
+    "name": "dino-ma/php-speed-limit",
+    "description": "This is an php speed limit project;",
+    "authors": [
+        {
+            "name": "dino.ma",
+            "email": "dino_ma@163.com"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "dino-ma\\php-speed-limit\\": "src/"
+        }},
+    "require": {
+        "php": "^7.1",
+        "predis/predis": "^1.1"
+    }
+}
