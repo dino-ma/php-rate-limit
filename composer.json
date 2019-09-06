@@ -11,7 +11,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "dino-ma\\php-speed-limit\\": "src/"
+            "SpeedLimit\\": "src/"
         }},
     "require": {
         "php": "^7.1",
