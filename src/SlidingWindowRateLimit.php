@@ -49,7 +49,7 @@ class SlidingWindowRateLimit
             throw new SlidingWindowRateLimitException('窗口块/时间片不能为空');
         }
         if (!$redis instanceof Client) {
-            throw new SlidingWindowRateLimitException('请使用Jredis SDK');
+            throw new SlidingWindowRateLimitException('请使用Predis SDK');
         }
 
         $this->key      =   self::SLIDING_WINDOW_PRE . $key;
